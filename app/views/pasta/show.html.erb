@@ -1,0 +1,29 @@
+<p id="notice"><%= notice %></p>
+
+<p>
+  <strong>Nome:</strong>
+  <%= @pastum.nome %>
+</p>
+
+<p>
+  <strong>Produttore:</strong>
+  <%= @pastum.produttore %>
+</p>
+
+<p>
+  <strong>Descrizione:</strong>
+  <%= @pastum.descrizione %>
+</p>
+
+<p>
+  <strong>Cottura:</strong>
+  <%= @pastum.cottura %>
+</p>
+
+<p>
+  <strong>Peso:</strong>
+  <%= @pastum.peso %>
+</p>
+
+<%= link_to 'Edit', edit_pastum_path(@pastum) %> |
+<%= link_to 'Back', pasta_path %>
